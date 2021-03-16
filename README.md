@@ -20,7 +20,7 @@
 </p>
 
 <h1>:memo:About</h1>
-<p>BeTheHero API is a project developed during the <a href="https://rocketseat.com.br/">Semana Omnistack</a> presented by <a href="https://www.linkedin.com/school/rocketseat/">Rockeseat</a>.</p>
+<p>BeTheHero API is a project developed during the <a href="https://rocketseat.com.br/">Semana Omnistack 11</a> presented by <a href="https://www.linkedin.com/school/rocketseat/">Rockeseat</a>.</p>
 <p>WEB: <a href="https://github.com/Luksdantas/ReactJS-BeTheHero">BeTheHero Web</a></p>
 <p>API: <a href="https://github.com/Luksdantas/ReactNative-BeTheHero">BeTheHero Mobile</a></p>
 
