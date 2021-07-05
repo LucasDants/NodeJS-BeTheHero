@@ -11,12 +11,10 @@ export default {
 
         const [count] = await connection('incidents').count() as CountProps[]
 
-        console.log(count)
-
         const incidents = await connection('incidents')
         .join('ongs', 'ongs.id', '=', 'incidents.ong_id ')
-        .limit(5)
-        .offset((Number(page) - 1) * 5)
+        //.limit(5)
+        //.offset((Number(page) - 1) * 5)
         .select(['incidents.*', 'ongs.name', 'ongs.email', 'ongs.whatsapp', 'ongs.city', 'ongs.uf'])
         
         response.header('X-Total-Count', count['count(*)'])
